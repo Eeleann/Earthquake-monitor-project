@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/tv_Ptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/lv_EQsummary"
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:layout_below="@+id/tv_Ptitle">
+        </ListView>
+
+    <fragment
+        android:id="@+id/f_MapSum"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_below="@+id/lv_EQsummary"
+        class="com.google.android.gms.maps.SupportMapFragment">
+
+    </fragment>
+
+</RelativeLayout>

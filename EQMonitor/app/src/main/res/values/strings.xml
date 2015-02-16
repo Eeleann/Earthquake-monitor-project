@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EarthquakeMonitor</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title">Title</string>
+    <string name="magnitude">Magnitude</string>
+    <string name="localization">Localization</string>
+
+</resources>
